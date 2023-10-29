@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <span class="bg-animation1"></span>
+        <span class="bg-animation"></span>
+
+        <!-- -------------------------- Forgot password  ----------------------------  -->
+
+        <div class="form-box pass">
+            <h2 class="animate" style="--i:3;--j:25">Forgot Password</h2>
+            <form action="/forgot" method="post">
+                <div class="input-box animate" style="--i:4;--j:26">
+                    <input type="text" name="username" required>
+                    <label>Username</label>
+                    <i class='bx bxs-user'></i>
+                    <div class="forgot">
+                        <a href="for.html">Get Otp</a>
+                    </div>
+                </div>
+
+                <div class="input-box animate" style="--i:5;--j:27">
+                    <input type="number" name="otp" required>
+                    <label>Enter OTP</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <button type="submit" class="animate btn" style="--i:6;--j:28">Submit</button>
+                <div class="logreg-link animate" style="--i:7;--j:29">
+                    <p>Remember Your Password? <a href="login.html" class="register-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- -------------------------- Forgot password welcome  ----------------------------  -->
+
+        <div class="info-text pass">
+            <div class="logo animate" style="--i:0;--j:25">
+                <h3>CodeWizards.</h3>
+            </div>
+            <h2 class="animate" style="--i:1;--j:21">Welcome Back!</h2>
+            <span class="animate" style="--i:2;--j:22">Welcome Back to CodeWizards!</span>
+            <p class="animate" style="--i:3;--j:23">We're thrilled to have you back on CodeWizards.com, your hub for
+                academic excellence and student resources. Whether you're a returning student or a new member of our
+                community, we're here to support your educational journey.</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='project1.js') }}"></script>
+    <script src="{{ url_for('static', filename='data.js') }}"></script>
+</body>
+
+</html>
