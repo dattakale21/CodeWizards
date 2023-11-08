@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWizards-Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">CodeWizards.</a>
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- menu icon(3 lines)-->
+        <div id="theme-toggle" class="theme-toggle">
+            <div id="theme-icons" class="theme-icons">
+                <i id="moon" class="bx bxs-moon" style="display: none;"></i>
+                <i id="sun" class="bx bxs-sun" style="display: inline-block;"></i>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="developers.html">Developers</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" class="login-link">Login</a>
+        </nav>
+    </header>
+
+    <!-- ------------------------------ Information ------------------------------------ -->
+
+    <section class="Portfolio" id="Portfolio">
+        <h2 class="heading">Student <span>Profiles</span></h2>
+        <div class="portfolio-box">
+
+            <div class="portfolio-row">
+                <div class="portfolio-content" onclick="window.location.href='student/personal.html';">
+                    <div class="content">
+                        <h1>Personal</h1>
+                    </div>
+                </div>
+
+                <div class="portfolio-content" onclick="window.location.href='student/education.html';">
+                    <div class="content">
+                        <h1>Education</h1>
+                    </div>
+                </div>
+
+                <div class="portfolio-content" onclick="window.location.href='student/work.html';">
+                    <div class="content">
+                        <h1>Work Experience</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="portfolio-row">
+            
+                <div class="portfolio-content" onclick="window.location.href='student/project.html';">
+                    <div class="content">
+                        <h1>Projects</h1>
+                    </div>
+                </div>
+
+                <div class="portfolio-content" onclick="window.location.href='student/skill.html';">
+                    <div class="content">
+                        <h1>Skills</h1>
+                    </div>
+                </div>
+
+                <div class="portfolio-content" onclick="window.location.href='student/achivements.html';">
+                    <div class="content">
+                        <h1>Certification</h1>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <h2>Copyright © 2023 CodeWizards. All rights reserved | <span id="#name">Designed by CodeWizards
+                        Team</span></h2>
+            </footer>
+            <script src="project1.js"></script>
+</body>
+
+</html>
+
+<!-- Code By - DATTA KALE -->

@@ -1,7 +1,6 @@
 /* google fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 
-
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none; 
@@ -48,6 +47,7 @@ body {
 }
 
 /* ------------------------------- Login form ---------------------- */
+
 .wrapper .form-box.login {
     left: 0;
     padding: 0 6rem 0 6rem;
@@ -89,7 +89,6 @@ body {
     color: #0ef;
 }
 
-
 /* ------------------------------- forgot password form ---------------------- */
 
 .wrapper .form-box.pass .animate {
@@ -107,20 +106,18 @@ body {
     opacity: 1;
     filter: blur(0.5rem);
 }
+
 .wrapper .form-box.pass {
     position: absolute;
     left:-1rem;
     padding: 0 5rem;
 }
 
-
 /* ------------------------------- sign up form -------------------------- */
 
 .wrapper .form-box.register {
     right: -1rem;
     padding: 0 6rem 0 6rem;
-    /* opacity: 0; */
-    /* display: none; */
 }
 
 .wrapper .form-box.register .animate {
@@ -157,8 +154,7 @@ body {
     color: #fff;
 }
 
-
-/* ------------------------- Basic ---------------------  */
+/* -------------------------- Basic ---------------------  */
 
 .form-box h2 {
     font-size: 2.3rem;
@@ -424,7 +420,6 @@ body {
     padding: 0 3rem 4rem 1rem;
     pointer-events: none;
     margin-top: 2rem;
-    /* opacity: 1; */
 }
 
 .wrapper .info-text.register .animate {
@@ -476,6 +471,4 @@ body {
     color: #fff;
 }
 
-
-/* 15-08-2023 */
-/* --------------------- END ------------------------ */
+/* Code By - DATTA KALE */

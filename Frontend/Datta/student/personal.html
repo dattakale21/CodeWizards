@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWizards-Personal</title>
+    <link rel="stylesheet" href="personal.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">CodeWizards.</a>
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- menu icon(3 lines)-->
+        <div id="theme-toggle" class="theme-toggle">
+            <div id="theme-icons" class="theme-icons">
+                <i id="moon" class="bx bxs-moon" style="display: none;"></i>
+                <i id="sun" class="bx bxs-sun" style="display: inline-block;"></i>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <a href="../home.html" class="active">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../developers.html">Developers</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../login.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- ---------------------------------- Personal ----------------------------------- -->
+
+    <section class="personal" id="personal">
+        <h2 class="heading1">Personal</h2>
+
+        <form action="">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="Number" name="Mobile" placeholder="Mobile Number" id="yourNumberInput"
+                    name="yourNumberInput">
+                <input type="text" name="location" placeholder="Location">
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="linkedin" placeholder="Linkedin Profile">
+                <input type="email" name="github" placeholder="Github Profile">
+            </div>
+
+            <div class="input-box">
+                <textarea name="Message" id="messa" cols="5" rows="5" name="Message"
+                    placeholder="Professional Title"></textarea>
+                <textarea name="Message" id="messa" cols="5" rows="5" name="Message" placeholder="Summary"></textarea>
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="languages" placeholder="Languages">
+                <input type="file" name="photo" accept="image/*" id="photoUpload">
+            </div>
+
+            <button type="button" id="link"><a href="education.html">Next</a></button>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <h2>Copyright © 2023 CodeWizards. All rights reserved | <span id="#name">Designed by CodeWizards Team</span>
+        </h2>
+    </footer>
+</body>
+
+</html>
+
+<!-- Code By - DATTA KALE  -->
