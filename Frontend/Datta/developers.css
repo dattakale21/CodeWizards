@@ -116,8 +116,13 @@ body {
         background-color: rgb(255, 243, 243);
     }
 
-    .developers-box {
-        background-color: rgb(244, 232, 232);
+
+    .developers-content{
+        background-color:rgb(240, 234, 234); ;
+    }
+
+    .content img{
+        border: .3rem solid rgb(58, 58, 157);
     }
 }
 
@@ -259,7 +264,7 @@ body {
     margin: 0 2.6rem;
     margin-top: -2rem;
     border-radius: 1.1rem;
-    box-shadow: 3px 3px 16px rgb(113, 183, 191);
+    box-shadow: 3px 3px 13px rgb(113, 183, 191);
 }
 
 button {

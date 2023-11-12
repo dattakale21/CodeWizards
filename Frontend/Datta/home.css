@@ -87,32 +87,20 @@ body {
     color: var(--main-color);
 }
 
-#moon.active {
-    display: none;
-}
-
-#sun.active {
-    display: inline-block;
-}
-
 .dark-theme {
     --bg-color: #f6eeee;
     --second-bg-color: #e4e2e1c4;
     --text-color: #2b1d1d;
     --main-color: rgb(20, 48, 229);
     --contact-color: #d1d1d1;
+}
 
-    .achivements-box {
-        background-color: rgb(206, 206, 206);
-    }
+#moon.active {
+    display: inline-block;
+}
 
-    .Portfolio {
-        background-color: rgb(255, 243, 243);
-    }
-
-    .portfolio-box {
-        background-color: rgb(244, 232, 232);
-    }
+#sun.active {
+    display: none;
 }
 
 #theme-toggle {

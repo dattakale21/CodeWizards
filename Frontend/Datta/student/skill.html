@@ -86,7 +86,7 @@
                 </div>
             </ul>
 
-            <input type="submit" class="btn" id="mes" value="Next"><a href="certification.html"></a>
+            <button type="button" id="link"><a href="achivements.html">Next</a></button>
 
     </section>
 
@@ -95,6 +95,19 @@
         <h2>Copyright © 2023 CodeWizards. All rights reserved | <span id="#name">Designed by CodeWizards Team</span>
         </h2>
     </footer>
+
+    <script>
+        const moonIcon = document.getElementById('moon');
+        const sunIcon = document.getElementById('sun');
+    
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            moonIcon.style.display = moonIcon.style.display === 'none' ? 'inline-block' : 'none';
+            sunIcon.style.display = sunIcon.style.display === 'none' ? 'inline-block' : 'none';
+        }
+    
+        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+    </script>
 </body>
 
 </html>

@@ -120,6 +120,14 @@ body {
     .portfolio-box {
         background-color: rgb(244, 232, 232);
     }
+
+    .heading {
+        color: black;
+    }
+
+    #link a:hover {
+        color: rgb(10, 10, 153);
+    }
 }
 
 #theme-toggle {

@@ -31,7 +31,7 @@
     </header>
 
     <!-- ---------------------------------- Education ----------------------------------- -->
-    
+
     <h2 class="heading1">Education</h2>
     <section class="education" id="education">
         <form action="">
@@ -101,7 +101,8 @@
             </div>
             <textarea name="Message" id="messa" cols="27" rows="3" name="Message" placeholder="Summary"></textarea>
 
-            <input type="submit" class="btn" id="mes" value="Next"><a href="work.html"></a>
+            <button type="button" id="link"><a href="work.html">Next</a></button>
+
         </form>
     </section>
 
@@ -109,8 +110,23 @@
         <h2>Copyright © 2023 CodeWizards. All rights reserved | <span id="#name">Designed by CodeWizards Team</span>
         </h2>
     </footer>
+
+
+    
+    <script>
+        const moonIcon = document.getElementById('moon');
+        const sunIcon = document.getElementById('sun');
+    
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            moonIcon.style.display = moonIcon.style.display === 'none' ? 'inline-block' : 'none';
+            sunIcon.style.display = sunIcon.style.display === 'none' ? 'inline-block' : 'none';
+        }
+    
+        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+    </script>
 </body>
 
 </html>
 
- <!-- Code By - DATTA KALE  -->
+<!-- Code By - DATTA KALE  -->

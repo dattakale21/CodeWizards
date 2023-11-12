@@ -84,7 +84,6 @@ body {
     color: var(--main-color);
 }
 
-
 .navbar a:hover {
     color: var(--main-color);
 }
@@ -223,10 +222,11 @@ body {
 
 .achivements .btn {
     font-size: 1.3rem;
-    margin: 1rem 0;
+    margin: 0rem 0;
     padding: 0.5rem 4rem;
     cursor: pointer;
     letter-spacing: 0.4rem;
+    margin-top: 3rem;
 }
 
 .achivements form .input-box input {
@@ -238,13 +238,13 @@ body {
     padding: 0.1rem 1.1rem;
     font-size: 1.8rem;
     border: 0.1rem solid var(--main-color);
-    border-radius: 4rem;
+    border-radius: 1rem;
     color: var(--second-bg-color);
     background-color: var(--main-color);
     letter-spacing: .3rem;
     font-weight: 600;
     box-shadow: 0 0 1rem var(--main-color);
-    transition: .3s ease;
+    transition: .2s ease;
 }
 
 .btn:hover {

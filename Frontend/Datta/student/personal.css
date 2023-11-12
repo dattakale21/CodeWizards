@@ -112,12 +112,8 @@ body {
         background-color: rgb(206, 206, 206);
     }
 
-    .Portfolio {
+    .personal {
         background-color: rgb(255, 243, 243);
-    }
-
-    .portfolio-box {
-        background-color: rgb(244, 232, 232);
     }
 }
 
@@ -183,7 +179,7 @@ body {
     word-spacing: 0.2rem;
     font-size: 4.5rem;
     letter-spacing: 0.3rem;
-    margin: 4rem 0;
+    margin: 5rem 0;
 }
 
 .heading1 span {

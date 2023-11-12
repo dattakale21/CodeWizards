@@ -108,17 +108,10 @@ body {
     --main-color: rgb(20, 48, 229);
     --education-color: #d1d1d1;
 
-    .achivements-box {
-        background-color: rgb(206, 206, 206);
-    }
-
-    .developers {
+    .education,education form,body,hr {
         background-color: rgb(255, 243, 243);
     }
-
-    .developers-box {
-        background-color: rgb(244, 232, 232);
-    }
+    
 }
 
 #theme-toggle {
@@ -239,24 +232,31 @@ body {
     width: 49%;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.1rem 1.1rem;
-    font-size: 1.8rem;
-    border: 0.2rem solid var(--main-color);
-    border-radius: 4rem;
-    color: var(--second-bg-color);
-    background-color: var(--main-color);
-    letter-spacing: .3rem;
-    font-weight: 600;
-    box-shadow: 0 0 1rem var(--main-color);
-    transition: .3s ease;
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    position: relative;
 }
 
-.btn:hover {
+#link a {
+    padding: 0.5rem 4rem;
+    font-size: 1.4rem;
+    position: absolute;
+    background: var(--main-color);
+    border-radius: 0.7rem;
+    color: rgb(13, 13, 47);
     box-shadow: 0px 3px 5px rgb(84, 193, 243);
-    background-color: var(--second-bg-color);
+    letter-spacing: 0.3rem;
+}
+
+#link a:hover {
     color: var(--main-color);
+    background-color: var(--bg-color);
+    border: 0.1rem solid var(--main-color);
+    transform: scale(1.01);
+    transition: transform 0.9s ease;
 }
 
 hr {
